@@ -1,0 +1,53 @@
+:root{
+    font-size: 16px;
+    --cor1: #1e448c;
+    --cor2: #06272e;
+    --cor3: #f5fdff;
+    --cor4: #12bdf1ff;
+    --headline: 'Oswald', sans-serif;
+    --texto: 'Poppins', sans-serif;;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--texto);
+    background-color: var(--cor3);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor2);    
+}
+
+.header {
+    background-color:var(--cor3);
+    height: 4rem;
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, .5);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.logo {
+    width: 5rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+
